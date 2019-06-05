@@ -81,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E82EA2B022A824F000186E5B /* ACMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				E8C4948E229A5A6100C6C623 /* ACMatrix.h */,
+				E8C4948F229A5A6100C6C623 /* ACMatrix.m */,
+			);
+			path = ACMatrix;
+			sourceTree = "<group>";
+		};
 		E8C49450229A487E00C6C623 = {
 			isa = PBXGroup;
 			children = (
@@ -104,12 +113,11 @@
 		E8C4945B229A487E00C6C623 /* MatrixTest */ = {
 			isa = PBXGroup;
 			children = (
+				E82EA2B022A824F000186E5B /* ACMatrix */,
 				E8C4945C229A487E00C6C623 /* AppDelegate.h */,
 				E8C4945D229A487E00C6C623 /* AppDelegate.m */,
 				E8C4945F229A487E00C6C623 /* ViewController.h */,
 				E8C49460229A487E00C6C623 /* ViewController.m */,
-				E8C4948E229A5A6100C6C623 /* ACMatrix.h */,
-				E8C4948F229A5A6100C6C623 /* ACMatrix.m */,
 				E8C49462229A487E00C6C623 /* Main.storyboard */,
 				E8C49465229A488100C6C623 /* Assets.xcassets */,
 				E8C49467229A488100C6C623 /* LaunchScreen.storyboard */,
