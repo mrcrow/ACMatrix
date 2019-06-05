@@ -15,6 +15,7 @@
 		E8C4946C229A488100C6C623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C4946B229A488100C6C623 /* main.m */; };
 		E8C49476229A488100C6C623 /* MatrixTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C49475229A488100C6C623 /* MatrixTestTests.m */; };
 		E8C49481229A488100C6C623 /* MatrixTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C49480229A488100C6C623 /* MatrixTestUITests.m */; };
+		E8C49490229A5A6100C6C623 /* ACMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C4948F229A5A6100C6C623 /* ACMatrix.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E8C4947C229A488100C6C623 /* MatrixTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C49480229A488100C6C623 /* MatrixTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixTestUITests.m; sourceTree = "<group>"; };
 		E8C49482229A488100C6C623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8C4948E229A5A6100C6C623 /* ACMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACMatrix.h; sourceTree = "<group>"; };
+		E8C4948F229A5A6100C6C623 /* ACMatrix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACMatrix.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E8C4945D229A487E00C6C623 /* AppDelegate.m */,
 				E8C4945F229A487E00C6C623 /* ViewController.h */,
 				E8C49460229A487E00C6C623 /* ViewController.m */,
+				E8C4948E229A5A6100C6C623 /* ACMatrix.h */,
+				E8C4948F229A5A6100C6C623 /* ACMatrix.m */,
 				E8C49462229A487E00C6C623 /* Main.storyboard */,
 				E8C49465229A488100C6C623 /* Assets.xcassets */,
 				E8C49467229A488100C6C623 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				E8C49461229A487E00C6C623 /* ViewController.m in Sources */,
 				E8C4946C229A488100C6C623 /* main.m in Sources */,
+				E8C49490229A5A6100C6C623 /* ACMatrix.m in Sources */,
 				E8C4945E229A487E00C6C623 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
