@@ -188,8 +188,8 @@
     __CLPK_integer N = (__CLPK_integer)temp.columns;
     __CLPK_integer LDA = MAX(M, N);
     
-    int *pivot = (int *)malloc(MIN(M, N) * sizeof(int));
-    double *workspace = (double *)malloc(MAX(M, N) * sizeof(double));
+    __CLPK_integer *pivot = (int *)malloc(MIN(M, N) * sizeof(__CLPK_integer));
+    __CLPK_doublereal *workspace = (double *)malloc(MAX(M, N) * sizeof(__CLPK_doublereal));
     
     dgetrf_(&M, &N, temp.data, &LDA, pivot, &error);
     if (error)
