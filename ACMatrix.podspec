@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ACMatrix"
   spec.version      = "0.2.0"
-  spec.summary      = "A delightful matrix mathematical operation lib in Objective-C: ACMatrix."
+  spec.summary      = "A delightful matrix mathematical operation lib"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,9 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                    A delightful, easy to use, matrix operations lib written in Objective-C
+                    A delightful, 
+                    Easy to use,
+                    Matrix operations lib written in Objective-C
                    DESC
 
   spec.homepage     = "https://github.com/mrcrow/ACMatrix"
