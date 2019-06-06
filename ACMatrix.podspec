@@ -41,7 +41,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => "BSD", :file => "BSD License.txt"}
+  spec.license      = "BSD"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
